@@ -166,6 +166,7 @@ const VideoMeeting = () => {
            </div>
         </div>
       )}
+      <SpeechToText />
     </div>
   );
 }
