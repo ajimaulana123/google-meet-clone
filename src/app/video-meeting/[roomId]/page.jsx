@@ -6,6 +6,7 @@ import { ZegoUIKitPrebuilt } from '@zegocloud/zego-uikit-prebuilt';
 import { toast } from 'react-toastify';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
+import { SpeechToText } from "@/app/components/SpeechToText"
 
 const VideoMeeting = () => {
   const params= useParams();
