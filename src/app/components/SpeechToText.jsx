@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 
-export function SpeechToText() {
+export default function SpeechToText() {
     const recognitionRef = useRef < any > (null);
     const [listening, setListening] = useState(false);
     const [transcript, setTranscript] = useState("");
